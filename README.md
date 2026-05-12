@@ -90,9 +90,18 @@ The histogram below shows the distribution of residuals from the regression mode
 # Results
 
 
-- The regression model explained approximately **58%** of the variation in Airbnb prices.
-- Features such as location, property type, room type, number of bedrooms, and reviews had a meaningful impact on pricing.
-- The model demonstrated moderate predictive ability and showed that listing characteristics play a significant role in determining Airbnb prices.
+The multiple linear regression model was evaluated using R-squared, Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).
+
+- **R-squared:** 0.58  
+- **Mean Absolute Error (MAE):** 0.35  
+- **Mean Squared Error (MSE):** 0.22  
+- **Root Mean Squared Error (RMSE):** 0.46  
+
+The multiple linear regression model produced an R squared value of about 0.58, which means the model explains around 58% of the variation in Airbnb log prices based on the variables included in the dataset. This suggests that features such as location, property type, review information, and other related variables had a meaningful relationship with Airbnb pricing.
+
+The Mean Absolute Error (MAE) of about 0.35 shows that the model’s predictions are typically off by around 0.35 units on average. The Root Mean Squared Error (RMSE) of about 0.46 suggests that the model has a good amount of prediction error, while also giving more weight to larger errors.
+
+Overall, the regression model demonstrated moderate predictive ability and was reasonably effective at identifying pricing patterns within the Airbnb dataset. While the model performed fairly well, additional variables such as seasonal demand, neighborhood popularity, host experience, and property amenities could potentially improve prediction accuracy in future analyses.
 
 The findings suggest that machine learning and regression techniques can be useful tools for understanding and predicting Airbnb market pricing trends.
 
