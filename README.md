@@ -14,7 +14,7 @@
 
 ---
 
-# Dataset
+# Dataset Overview
 
 The dataset contains Airbnb listing information including features such as:
 
@@ -27,7 +27,7 @@ The dataset contains Airbnb listing information including features such as:
 - Booking information
 - Price
 
-The final dataset used for modeling contained over 74,000 Airbnb listings after cleaning and preprocessing.
+The dataset contains 74,111 observations and 29 variables. Each observation represents an individual Airbnb listing, while each variable represents a feature of the listing such as price, location, or property characteristics. The dataset contained several variables with missing values such as host_response_rate, review_scores_rating, and first_review. Each variable had a significant number of missing observations. These missing values will be addressed by being removed.
 
 ---
 
