@@ -1,6 +1,6 @@
 # Predicting Airbnb Prices Using Multiple Linear Regression 🏡
 
-This project focuses on predicting Airbnb rental prices using a dataset that contains listing information from multiple cities.The dataset includes both numerical and categorical variables like property type, room type, location, cleaning fee, cancellation policy, number of reviews, and host verification details.The goal of this project is to identify which factors have the greatest influence on Airbnb pricing and to develop a predictive model using multiple linear regression. By analyzing these relationships, this project's main goal is to provide insight into how different listing characteristics impact price and to demonstrate how predictive modeling can be applied to real world data.
+- This project focuses on predicting Airbnb rental prices using a dataset that contains listing information from multiple cities.The dataset includes both numerical and categorical variables like property type, room type, location, cleaning fee, cancellation policy, number of reviews, and host verification details.The goal of this project is to identify which factors have the greatest influence on Airbnb pricing and to develop a predictive model using multiple linear regression. By analyzing these relationships, this project's main goal is to provide insight into how different listing characteristics impact price and to demonstrate how predictive modeling can be applied to real world data.
 ---
 
 # Objectives
